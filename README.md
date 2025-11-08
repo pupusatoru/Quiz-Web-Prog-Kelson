@@ -37,40 +37,6 @@ Website ini mengimplementasikan arsitektur **MVC (Model–View–Controller)** d
 
 ---
 
-## 🧩 Struktur Folder Penting
-
-EduFun/
-│
-├── app/
-│ ├── Models/
-│ │ ├── Article.php
-│ │ ├── Category.php
-│ │ └── Writer.php
-│ └── Http/Controllers/
-│ ├── HomeController.php
-│ ├── PopularController.php
-│ └── ...
-│
-├── database/
-│ ├── migrations/
-│ └── seeders/
-│ ├── CategorySeeder.php
-│ ├── WriterSeeder.php
-│ ├── ArticleSeeder.php
-│ └── DatabaseSeeder.php
-│
-├── resources/views/
-│ ├── layouts/main.blade.php
-│ ├── home.blade.php
-│ ├── category.blade.php
-│ ├── writers.blade.php
-│ ├── about.blade.php
-│ └── popular.blade.php
-│
-└── routes/web.php
-
----
-
 ## 🛠️ Instalasi dan Menjalankan Project
 
 ### 1️⃣ Clone Repository
