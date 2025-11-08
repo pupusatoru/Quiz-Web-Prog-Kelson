@@ -40,13 +40,13 @@ Website ini mengimplementasikan arsitektur **MVC (Model–View–Controller)** d
 ## 🛠️ Instalasi dan Menjalankan Project
 
 ### 1️⃣ Clone Repository
-git clone https://github.com/<username>/EduFun.git
+git clone https://github.com/pupusatoru/Quiz-Web-Prog-Kelson
 cd EduFun
 
 ### 2️⃣ Install Dependencies
 composer install
 
-###3️⃣ Setup Environment
+### 3️⃣ Setup Environment
 Buat file .env dari contoh:
 copy .env.example .env
 
@@ -55,11 +55,11 @@ DB_DATABASE=edufun_db
 DB_USERNAME=root
 DB_PASSWORD=
 
-###4️⃣ Generate Key
+### 4️⃣ Generate Key
 php artisan key:generate
 
-###5️⃣ Jalankan Migration dan Seeder
+### 5️⃣ Jalankan Migration dan Seeder
 php artisan migrate:fresh --seed
 
-###6️⃣ Jalankan Server
+### 6️⃣ Jalankan Server
 php artisan serve
